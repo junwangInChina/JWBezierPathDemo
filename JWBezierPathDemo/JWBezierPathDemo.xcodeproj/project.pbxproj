@@ -10,12 +10,12 @@
 		58CB2D95C7E845D0DC211794 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4D9FA351198539FD4D5EDA /* libPods.a */; };
 		DAB377801C3E0C2100003F57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB3777F1C3E0C2100003F57 /* main.m */; };
 		DAB377831C3E0C2100003F57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB377821C3E0C2100003F57 /* AppDelegate.m */; };
-		DAB377861C3E0C2100003F57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB377851C3E0C2100003F57 /* ViewController.m */; };
 		DAB377891C3E0C2100003F57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB377871C3E0C2100003F57 /* Main.storyboard */; };
 		DAB3778B1C3E0C2100003F57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB3778A1C3E0C2100003F57 /* Assets.xcassets */; };
 		DAB3778E1C3E0C2100003F57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB3778C1C3E0C2100003F57 /* LaunchScreen.storyboard */; };
 		DAB377991C3E0C2100003F57 /* JWBezierPathDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB377981C3E0C2100003F57 /* JWBezierPathDemoTests.m */; };
 		DAB377A41C3E0C2100003F57 /* JWBezierPathDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB377A31C3E0C2100003F57 /* JWBezierPathDemoUITests.m */; };
+		DAB377BD1C3E0DCC00003F57 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB377BC1C3E0DCC00003F57 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +40,6 @@
 		DAB3777F1C3E0C2100003F57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAB377811C3E0C2100003F57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DAB377821C3E0C2100003F57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DAB377841C3E0C2100003F57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DAB377851C3E0C2100003F57 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DAB377881C3E0C2100003F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAB3778A1C3E0C2100003F57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAB3778D1C3E0C2100003F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +50,9 @@
 		DAB3779F1C3E0C2100003F57 /* JWBezierPathDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWBezierPathDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB377A31C3E0C2100003F57 /* JWBezierPathDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWBezierPathDemoUITests.m; sourceTree = "<group>"; };
 		DAB377A51C3E0C2100003F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB377BB1C3E0DCC00003F57 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		DAB377BC1C3E0DCC00003F57 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		DAB377BE1C3E0E5B00003F57 /* JWBezierPathDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JWBezierPathDemo-Prefix.pch"; sourceTree = "<group>"; };
 		EA4D9FA351198539FD4D5EDA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB35E7464975934EE6CB6035 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F64DC5D3C8DFEE4BB9159CD8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,10 +126,9 @@
 		DAB3777D1C3E0C2100003F57 /* JWBezierPathDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DAB377B51C3E0DBA00003F57 /* Classes */,
 				DAB377811C3E0C2100003F57 /* AppDelegate.h */,
 				DAB377821C3E0C2100003F57 /* AppDelegate.m */,
-				DAB377841C3E0C2100003F57 /* ViewController.h */,
-				DAB377851C3E0C2100003F57 /* ViewController.m */,
 				DAB377871C3E0C2100003F57 /* Main.storyboard */,
 				DAB3778A1C3E0C2100003F57 /* Assets.xcassets */,
 				DAB3778C1C3E0C2100003F57 /* LaunchScreen.storyboard */,
@@ -142,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				DAB3777F1C3E0C2100003F57 /* main.m */,
+				DAB377BE1C3E0E5B00003F57 /* JWBezierPathDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,6 +163,55 @@
 				DAB377A51C3E0C2100003F57 /* Info.plist */,
 			);
 			path = JWBezierPathDemoUITests;
+			sourceTree = "<group>";
+		};
+		DAB377B51C3E0DBA00003F57 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DAB377B61C3E0DBA00003F57 /* Controllers */,
+				DAB377B81C3E0DBA00003F57 /* Utils */,
+				DAB377B91C3E0DBA00003F57 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DAB377B61C3E0DBA00003F57 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DAB377B71C3E0DBA00003F57 /* HomeController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DAB377B71C3E0DBA00003F57 /* HomeController */ = {
+			isa = PBXGroup;
+			children = (
+				DAB377BB1C3E0DCC00003F57 /* HomeViewController.h */,
+				DAB377BC1C3E0DCC00003F57 /* HomeViewController.m */,
+			);
+			path = HomeController;
+			sourceTree = "<group>";
+		};
+		DAB377B81C3E0DBA00003F57 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DAB377B91C3E0DBA00003F57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DAB377BA1C3E0DBA00003F57 /* HomeView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DAB377BA1C3E0DBA00003F57 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,9 +395,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAB377861C3E0C2100003F57 /* ViewController.m in Sources */,
 				DAB377831C3E0C2100003F57 /* AppDelegate.m in Sources */,
 				DAB377801C3E0C2100003F57 /* main.m in Sources */,
+				DAB377BD1C3E0DCC00003F57 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +537,7 @@
 			baseConfigurationReference = EB35E7464975934EE6CB6035 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JWBezierPathDemo/JWBezierPathDemo-Prefix.pch";
 				INFOPLIST_FILE = JWBezierPathDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloudm.JWBezierPathDemo;
@@ -499,6 +550,7 @@
 			baseConfigurationReference = F64DC5D3C8DFEE4BB9159CD8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JWBezierPathDemo/JWBezierPathDemo-Prefix.pch";
 				INFOPLIST_FILE = JWBezierPathDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloudm.JWBezierPathDemo;

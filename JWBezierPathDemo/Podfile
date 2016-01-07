@@ -1,4 +1,5 @@
 platform :ios, '7.0'
 inhibit_all_warnings!
 
-pod 'SDAutoLayout', '1.1'
+pod 'SDAutoLayout', '~> 1.1'
+pod 'Wonderful', '~> 1.0.0'

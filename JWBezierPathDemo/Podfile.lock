@@ -1,10 +1,13 @@
 PODS:
   - SDAutoLayout (1.1)
+  - Wonderful (1.0.0)
 
 DEPENDENCIES:
-  - SDAutoLayout (= 1.1)
+  - SDAutoLayout (~> 1.1)
+  - Wonderful (~> 1.0.0)
 
 SPEC CHECKSUMS:
   SDAutoLayout: abfdc9d1ae3e4b2f4eb0dba6cdbe4f6264fa26be
+  Wonderful: 968f9339bcf006e7cabebc875cc868e5bb958fec
 
 COCOAPODS: 0.39.0
