@@ -16,6 +16,7 @@
 		DAB377991C3E0C2100003F57 /* JWBezierPathDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB377981C3E0C2100003F57 /* JWBezierPathDemoTests.m */; };
 		DAB377A41C3E0C2100003F57 /* JWBezierPathDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB377A31C3E0C2100003F57 /* JWBezierPathDemoUITests.m */; };
 		DAB377BD1C3E0DCC00003F57 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB377BC1C3E0DCC00003F57 /* HomeViewController.m */; };
+		DAB377C21C3E2C8200003F57 /* BaseBezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB377C11C3E2C8200003F57 /* BaseBezierPathViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		DAB377BB1C3E0DCC00003F57 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		DAB377BC1C3E0DCC00003F57 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		DAB377BE1C3E0E5B00003F57 /* JWBezierPathDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JWBezierPathDemo-Prefix.pch"; sourceTree = "<group>"; };
+		DAB377C01C3E2C8200003F57 /* BaseBezierPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseBezierPathViewController.h; sourceTree = "<group>"; };
+		DAB377C11C3E2C8200003F57 /* BaseBezierPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseBezierPathViewController.m; sourceTree = "<group>"; };
 		EA4D9FA351198539FD4D5EDA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB35E7464975934EE6CB6035 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F64DC5D3C8DFEE4BB9159CD8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -168,8 +171,8 @@
 		DAB377B51C3E0DBA00003F57 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DAB377B61C3E0DBA00003F57 /* Controllers */,
 				DAB377B81C3E0DBA00003F57 /* Utils */,
+				DAB377B61C3E0DBA00003F57 /* Controllers */,
 				DAB377B91C3E0DBA00003F57 /* Views */,
 			);
 			path = Classes;
@@ -179,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				DAB377B71C3E0DBA00003F57 /* HomeController */,
+				DAB377BF1C3E2C6900003F57 /* BaseBezierPathController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -212,6 +216,15 @@
 			children = (
 			);
 			path = HomeView;
+			sourceTree = "<group>";
+		};
+		DAB377BF1C3E2C6900003F57 /* BaseBezierPathController */ = {
+			isa = PBXGroup;
+			children = (
+				DAB377C01C3E2C8200003F57 /* BaseBezierPathViewController.h */,
+				DAB377C11C3E2C8200003F57 /* BaseBezierPathViewController.m */,
+			);
+			path = BaseBezierPathController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,6 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAB377831C3E0C2100003F57 /* AppDelegate.m in Sources */,
+				DAB377C21C3E2C8200003F57 /* BaseBezierPathViewController.m in Sources */,
 				DAB377801C3E0C2100003F57 /* main.m in Sources */,
 				DAB377BD1C3E0DCC00003F57 /* HomeViewController.m in Sources */,
 			);

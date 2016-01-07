@@ -23,6 +23,7 @@
     HomeViewController *homeController = [[HomeViewController alloc] init];
     UINavigationController *homeNav = [[UINavigationController alloc] initWithRootViewController:homeController];
     self.window.rootViewController = homeNav;
+    self.window.backgroundColor = [UIColor cornColor];
     [self.window makeKeyAndVisible];
     
     return YES;
