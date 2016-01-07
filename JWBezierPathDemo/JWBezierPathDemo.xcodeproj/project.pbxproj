@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58CB2D95C7E845D0DC211794 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4D9FA351198539FD4D5EDA /* libPods.a */; };
+		DAB377801C3E0C2100003F57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB3777F1C3E0C2100003F57 /* main.m */; };
+		DAB377831C3E0C2100003F57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB377821C3E0C2100003F57 /* AppDelegate.m */; };
+		DAB377861C3E0C2100003F57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB377851C3E0C2100003F57 /* ViewController.m */; };
+		DAB377891C3E0C2100003F57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB377871C3E0C2100003F57 /* Main.storyboard */; };
+		DAB3778B1C3E0C2100003F57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB3778A1C3E0C2100003F57 /* Assets.xcassets */; };
+		DAB3778E1C3E0C2100003F57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB3778C1C3E0C2100003F57 /* LaunchScreen.storyboard */; };
+		DAB377991C3E0C2100003F57 /* JWBezierPathDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB377981C3E0C2100003F57 /* JWBezierPathDemoTests.m */; };
+		DAB377A41C3E0C2100003F57 /* JWBezierPathDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB377A31C3E0C2100003F57 /* JWBezierPathDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAB377951C3E0C2100003F57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB377731C3E0C2100003F57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB3777A1C3E0C2100003F57;
+			remoteInfo = JWBezierPathDemo;
+		};
+		DAB377A01C3E0C2100003F57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB377731C3E0C2100003F57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB3777A1C3E0C2100003F57;
+			remoteInfo = JWBezierPathDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAB3777B1C3E0C2100003F57 /* JWBezierPathDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWBezierPathDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB3777F1C3E0C2100003F57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAB377811C3E0C2100003F57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAB377821C3E0C2100003F57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAB377841C3E0C2100003F57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAB377851C3E0C2100003F57 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAB377881C3E0C2100003F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAB3778A1C3E0C2100003F57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB3778D1C3E0C2100003F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAB3778F1C3E0C2100003F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB377941C3E0C2100003F57 /* JWBezierPathDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWBezierPathDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB377981C3E0C2100003F57 /* JWBezierPathDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWBezierPathDemoTests.m; sourceTree = "<group>"; };
+		DAB3779A1C3E0C2100003F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB3779F1C3E0C2100003F57 /* JWBezierPathDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWBezierPathDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB377A31C3E0C2100003F57 /* JWBezierPathDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWBezierPathDemoUITests.m; sourceTree = "<group>"; };
+		DAB377A51C3E0C2100003F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4D9FA351198539FD4D5EDA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB35E7464975934EE6CB6035 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F64DC5D3C8DFEE4BB9159CD8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB377781C3E0C2100003F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58CB2D95C7E845D0DC211794 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB377911C3E0C2100003F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB3779C1C3E0C2100003F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78F34530AC983EA1ECC896FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA4D9FA351198539FD4D5EDA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5D87303D348B20CE9A02114 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB35E7464975934EE6CB6035 /* Pods.debug.xcconfig */,
+				F64DC5D3C8DFEE4BB9159CD8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DAB377721C3E0C2100003F57 = {
+			isa = PBXGroup;
+			children = (
+				DAB3777D1C3E0C2100003F57 /* JWBezierPathDemo */,
+				DAB377971C3E0C2100003F57 /* JWBezierPathDemoTests */,
+				DAB377A21C3E0C2100003F57 /* JWBezierPathDemoUITests */,
+				DAB3777C1C3E0C2100003F57 /* Products */,
+				D5D87303D348B20CE9A02114 /* Pods */,
+				78F34530AC983EA1ECC896FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB3777C1C3E0C2100003F57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB3777B1C3E0C2100003F57 /* JWBezierPathDemo.app */,
+				DAB377941C3E0C2100003F57 /* JWBezierPathDemoTests.xctest */,
+				DAB3779F1C3E0C2100003F57 /* JWBezierPathDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB3777D1C3E0C2100003F57 /* JWBezierPathDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DAB377811C3E0C2100003F57 /* AppDelegate.h */,
+				DAB377821C3E0C2100003F57 /* AppDelegate.m */,
+				DAB377841C3E0C2100003F57 /* ViewController.h */,
+				DAB377851C3E0C2100003F57 /* ViewController.m */,
+				DAB377871C3E0C2100003F57 /* Main.storyboard */,
+				DAB3778A1C3E0C2100003F57 /* Assets.xcassets */,
+				DAB3778C1C3E0C2100003F57 /* LaunchScreen.storyboard */,
+				DAB3778F1C3E0C2100003F57 /* Info.plist */,
+				DAB3777E1C3E0C2100003F57 /* Supporting Files */,
+			);
+			path = JWBezierPathDemo;
+			sourceTree = "<group>";
+		};
+		DAB3777E1C3E0C2100003F57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAB3777F1C3E0C2100003F57 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAB377971C3E0C2100003F57 /* JWBezierPathDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB377981C3E0C2100003F57 /* JWBezierPathDemoTests.m */,
+				DAB3779A1C3E0C2100003F57 /* Info.plist */,
+			);
+			path = JWBezierPathDemoTests;
+			sourceTree = "<group>";
+		};
+		DAB377A21C3E0C2100003F57 /* JWBezierPathDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB377A31C3E0C2100003F57 /* JWBezierPathDemoUITests.m */,
+				DAB377A51C3E0C2100003F57 /* Info.plist */,
+			);
+			path = JWBezierPathDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB3777A1C3E0C2100003F57 /* JWBezierPathDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB377A81C3E0C2100003F57 /* Build configuration list for PBXNativeTarget "JWBezierPathDemo" */;
+			buildPhases = (
+				EE615037471B22A502755D83 /* Check Pods Manifest.lock */,
+				DAB377771C3E0C2100003F57 /* Sources */,
+				DAB377781C3E0C2100003F57 /* Frameworks */,
+				DAB377791C3E0C2100003F57 /* Resources */,
+				5C3C8A9CE03BEE195DF211E6 /* Embed Pods Frameworks */,
+				4637C957878729AFD17E8C8B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWBezierPathDemo;
+			productName = JWBezierPathDemo;
+			productReference = DAB3777B1C3E0C2100003F57 /* JWBezierPathDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAB377931C3E0C2100003F57 /* JWBezierPathDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB377AB1C3E0C2100003F57 /* Build configuration list for PBXNativeTarget "JWBezierPathDemoTests" */;
+			buildPhases = (
+				DAB377901C3E0C2100003F57 /* Sources */,
+				DAB377911C3E0C2100003F57 /* Frameworks */,
+				DAB377921C3E0C2100003F57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB377961C3E0C2100003F57 /* PBXTargetDependency */,
+			);
+			name = JWBezierPathDemoTests;
+			productName = JWBezierPathDemoTests;
+			productReference = DAB377941C3E0C2100003F57 /* JWBezierPathDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAB3779E1C3E0C2100003F57 /* JWBezierPathDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB377AE1C3E0C2100003F57 /* Build configuration list for PBXNativeTarget "JWBezierPathDemoUITests" */;
+			buildPhases = (
+				DAB3779B1C3E0C2100003F57 /* Sources */,
+				DAB3779C1C3E0C2100003F57 /* Frameworks */,
+				DAB3779D1C3E0C2100003F57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB377A11C3E0C2100003F57 /* PBXTargetDependency */,
+			);
+			name = JWBezierPathDemoUITests;
+			productName = JWBezierPathDemoUITests;
+			productReference = DAB3779F1C3E0C2100003F57 /* JWBezierPathDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB377731C3E0C2100003F57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = wangjun;
+				TargetAttributes = {
+					DAB3777A1C3E0C2100003F57 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					DAB377931C3E0C2100003F57 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DAB3777A1C3E0C2100003F57;
+					};
+					DAB3779E1C3E0C2100003F57 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DAB3777A1C3E0C2100003F57;
+					};
+				};
+			};
+			buildConfigurationList = DAB377761C3E0C2100003F57 /* Build configuration list for PBXProject "JWBezierPathDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB377721C3E0C2100003F57;
+			productRefGroup = DAB3777C1C3E0C2100003F57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB3777A1C3E0C2100003F57 /* JWBezierPathDemo */,
+				DAB377931C3E0C2100003F57 /* JWBezierPathDemoTests */,
+				DAB3779E1C3E0C2100003F57 /* JWBezierPathDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB377791C3E0C2100003F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB3778E1C3E0C2100003F57 /* LaunchScreen.storyboard in Resources */,
+				DAB3778B1C3E0C2100003F57 /* Assets.xcassets in Resources */,
+				DAB377891C3E0C2100003F57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB377921C3E0C2100003F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB3779D1C3E0C2100003F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4637C957878729AFD17E8C8B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C3C8A9CE03BEE195DF211E6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE615037471B22A502755D83 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB377771C3E0C2100003F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB377861C3E0C2100003F57 /* ViewController.m in Sources */,
+				DAB377831C3E0C2100003F57 /* AppDelegate.m in Sources */,
+				DAB377801C3E0C2100003F57 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB377901C3E0C2100003F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB377991C3E0C2100003F57 /* JWBezierPathDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB3779B1C3E0C2100003F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB377A41C3E0C2100003F57 /* JWBezierPathDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAB377961C3E0C2100003F57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB3777A1C3E0C2100003F57 /* JWBezierPathDemo */;
+			targetProxy = DAB377951C3E0C2100003F57 /* PBXContainerItemProxy */;
+		};
+		DAB377A11C3E0C2100003F57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB3777A1C3E0C2100003F57 /* JWBezierPathDemo */;
+			targetProxy = DAB377A01C3E0C2100003F57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAB377871C3E0C2100003F57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB377881C3E0C2100003F57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAB3778C1C3E0C2100003F57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB3778D1C3E0C2100003F57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB377A61C3E0C2100003F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAB377A71C3E0C2100003F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB377A91C3E0C2100003F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB35E7464975934EE6CB6035 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JWBezierPathDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudm.JWBezierPathDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAB377AA1C3E0C2100003F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F64DC5D3C8DFEE4BB9159CD8 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JWBezierPathDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudm.JWBezierPathDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAB377AC1C3E0C2100003F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JWBezierPathDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudm.JWBezierPathDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWBezierPathDemo.app/JWBezierPathDemo";
+			};
+			name = Debug;
+		};
+		DAB377AD1C3E0C2100003F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JWBezierPathDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudm.JWBezierPathDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWBezierPathDemo.app/JWBezierPathDemo";
+			};
+			name = Release;
+		};
+		DAB377AF1C3E0C2100003F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JWBezierPathDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudm.JWBezierPathDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JWBezierPathDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DAB377B01C3E0C2100003F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JWBezierPathDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudm.JWBezierPathDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JWBezierPathDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB377761C3E0C2100003F57 /* Build configuration list for PBXProject "JWBezierPathDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB377A61C3E0C2100003F57 /* Debug */,
+				DAB377A71C3E0C2100003F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB377A81C3E0C2100003F57 /* Build configuration list for PBXNativeTarget "JWBezierPathDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB377A91C3E0C2100003F57 /* Debug */,
+				DAB377AA1C3E0C2100003F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB377AB1C3E0C2100003F57 /* Build configuration list for PBXNativeTarget "JWBezierPathDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB377AC1C3E0C2100003F57 /* Debug */,
+				DAB377AD1C3E0C2100003F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB377AE1C3E0C2100003F57 /* Build configuration list for PBXNativeTarget "JWBezierPathDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB377AF1C3E0C2100003F57 /* Debug */,
+				DAB377B01C3E0C2100003F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB377731C3E0C2100003F57 /* Project object */;
+}
